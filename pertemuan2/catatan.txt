@@ -24,3 +24,8 @@ berikut algortma-algoritma machine learning
 perbedaan linier dan non linier 
 linier, datanya kalau ditelisik (angka) kemudian digambarkan dilayar akan memunculkan pola garis
 non linier, datanya kalau lebih kompleks/variabel yang banyak  
+
+gpt astra 6 adalah upgrade masif di LLM
+
+pak nas melihat perkembangan ai tidak proporsional sesuai kebutuhan, terlalu melompat lompat, jadi produktifitas manuisa menurun  
+
