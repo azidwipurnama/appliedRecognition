@@ -1,0 +1,47 @@
+Python can be used on a server to create web applications, alongside software to create workflows, to handle big data and perform complex mathematics, to produce GUI-featured applications, for rapid prototyping, or for production-ready software development.
+
+Ciri-ciri pekerjaan programming, scripting, dan software development:
+
+ *programming: membuat sebuah program dengan menggunakan kode.
+ *scripting: scripting berada di antara programming dan software development, tetapi relatif lebih sederhana.
+ *software development: membuat aplikasi atau sistem yang lengkap.
+
+Scripting adalah pekerjaan komputasi yang paling tua karena sudah ada sejak komputer dibuat. Pada umumnya, scripting belum termasuk ke dalam program dan belum masuk ke dalam program life cycle. Tujuannya adalah sebagai bahasa komunikasi antara user dengan OS atau environment.
+
+Contohnya adalah meminta daftar folder/file, berpindah directory, menghapus file, dan menjalankan program atau aplikasi.
+
+Sekarang, scripting berkembang dengan kosakata yang semakin banyak dan dapat digunakan pada berbagai OS dan lingkungan. Scripting menjadi salah satu kunci dalam otomasi karena dapat berinteraksi dengan sistem dan environment. Oleh karena itu, seorang yang bekerja di bidang scripting harus memahami beberapa OS dan software.
+
+Contoh profesinya antara lain pada bidang payment gateway dan fintech.
+
+Microsoft di Indonesia digerakkan oleh makelar karena dianggap tidak efisien jika Microsoft langsung membuka operasional di Indonesia. Hal tersebut juga dapat dilakukan untuk menghindari pemborosan investasi dan biaya operasional.
+
+Pemasaran produk besar di Indonesia tidak semudah membalikkan telapak tangan karena membutuhkan koneksi dan relasi.
+
+Bisnis di Indonesia mencerminkan kualitas penduduk Indonesia karena selain harus memiliki modal, seseorang juga perlu memiliki relasi dan membangun hubungan yang baik dengan orang lain.
+
+Semoga Tuhan menjaga saya dan teman-teman saya.
+
+Kelebihan Python adalah cocok untuk trial, eksperimen, dan research karena penulisan programnya cepat. Namun, proses komputasinya relatif lebih lambat. Python membutuhkan resource yang cukup besar dan programnya dieksekusi baris demi baris. Jika program yang berjalan tidak dihentikan ketika sudah tidak diperlukan, resource akan terus digunakan sehingga menjadi boros.
+
+Untuk sampai ke tahap produksi, program terkadang perlu dioptimalkan atau dikonversi menggunakan bahasa seperti C++. Proses compiling menggunakan C++ juga menarik karena menghasilkan program yang dapat berjalan secara lebih efisien.
+
+C++ menyediakan instruksi yang dapat mengakses hardware secara lebih langsung. C++ juga menyediakan instruksi untuk berinteraksi dengan sistem operasi modern seperti Windows dan macOS.
+
+User dapat membuat rendering engine menggunakan C++ modern. Dalam proses tersebut, user tidak perlu berinteraksi langsung dengan CPU, tetapi dapat berinteraksi dengan sistem operasi Windows melalui instruksi tertentu, misalnya perintah untuk menampilkan sebuah gambar.
+
+Hal yang dapat dilakukan oleh user yang mempelajari low-level programming, tetapi mungkin tidak dapat dilakukan oleh user lain, adalah membangun OS sendiri dan membuat sistem sendiri yang dapat mengontrol penggunaan CPU secara penuh.
+
+Sistem tersebut dapat dibuat secara terisolasi (isolated) dan biasanya digunakan untuk kebutuhan research, eksperimen, maupun bidang tertentu seperti militer.
+
+RMSE digunakan untuk mengukur seberapa jauh output menyimpang dari nilai sebenarnya.
+
+Jika RMSE kecil, maka output atau hasil prediksi dianggap lebih baik. Sebaliknya, jika RMSE besar, berarti hasil prediksi memiliki penyimpangan yang lebih besar.
+
+Jika user membandingkan empat algoritma dan memilih algoritma yang memiliki nilai RMSE paling kecil, pendekatan tersebut berkaitan dengan least-squares technique, yaitu memilih model yang menghasilkan kesalahan kuadrat paling kecil.
+
+Nenek moyang dari berbagai algoritma adalah regression. Regression sendiri berasal dari matematika. Selain itu, matematika juga melahirkan neural network yang kemudian menjadi salah satu cikal bakal perkembangan AI, termasuk teknologi seperti ChatGPT.
+
+Artificial Intelligence menjadi semakin hebat karena mendapatkan banyak pengembangan dan kontribusi dari para researcher di berbagai bidang ilmu.
+
+Salah satu ciri ilmu yang lahir dari matematika adalah cara penyampaiannya tidak menggunakan bahasa manusia secara langsung, tetapi menggunakan bahasa atau bentuk representasi yang bersifat matematis dan formal.

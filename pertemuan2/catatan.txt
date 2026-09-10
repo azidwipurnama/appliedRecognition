@@ -1,0 +1,8 @@
+RMSE untuk mengukur output melenceng atau tidak
+Jika RMSE kecil maka autuputnya bagus, begitu juga kebalikannya
+
+Jika User membandingkan 4 algoritma dan user memilih algoritma yang RMSEnya kecil, itu disebut least-squares technique
+
+Nenek moyang algoritma adalah regression, regression sendiri lahir dari matematika, selain itu matematika melahirkan neuron network yang menjadi  cikal bakal  chatGPT/AI, Artificial Intelegence hebat karena banyak penambahan ilmu dari researcher.
+Ciri-ciri ilmu yang dilahirkan dari matematika adalah mereka menyampaikan bukan dengan bahasa manusia
+
