@@ -6,3 +6,6 @@ Jika User membandingkan 4 algoritma dan user memilih algoritma yang RMSEnya keci
 Nenek moyang algoritma adalah regression, regression sendiri lahir dari matematika, selain itu matematika melahirkan neuron network yang menjadi  cikal bakal  chatGPT/AI, Artificial Intelegence hebat karena banyak penambahan ilmu dari researcher.
 Ciri-ciri ilmu yang dilahirkan dari matematika adalah mereka menyampaikan bukan dengan bahasa manusia
 
+non linier pokoknya bukan garis, bukan garis ini kemungkinannya ada beberapa yaitu
+1. kurva
+2. penyebaran data ke banyak dimensi dengan pola yang kompleks 
