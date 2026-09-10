@@ -9,3 +9,18 @@ Ciri-ciri ilmu yang dilahirkan dari matematika adalah mereka menyampaikan bukan 
 non linier pokoknya bukan garis, bukan garis ini kemungkinannya ada beberapa yaitu
 1. kurva
 2. penyebaran data ke banyak dimensi dengan pola yang kompleks 
+
+karena kompleksitas pola data menjadi banyak, maka metode yang cocok untuk  prediksi, clustering/klasifikasi adalah algoritma-algoritma machine learning
+
+bentuk-bentuk
+linier memuat 2D, 3D 
+Non  linier kurva dan bukan kurva(dimensinya banyak)
+
+berikut algortma-algoritma machine learning
+1. kmeans
+2. decission tree
+3. svm 
+
+perbedaan linier dan non linier 
+linier, datanya kalau ditelisik (angka) kemudian digambarkan dilayar akan memunculkan pola garis
+non linier, datanya kalau lebih kompleks/variabel yang banyak  
