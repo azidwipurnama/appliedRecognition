@@ -1,5 +1,5 @@
-linier regression melibatkan data yang segaris.
-non linier regression melibatkan data yang tidak segaris (tidak membentuk pola garis lurus), melainkan mengikuti pola kurva atau untuk dimensi banyak tidak bisa divisualisasikan.
-untuk variabel dan data yang kompleks kitamembutuhkan metode seperti machine learning. Dengan metode mechine leariingdata tetap tidak divisualisasikan namun bisa diolah. 
-dengan proses ml gambar tetap tidak bisa ditampilkan, yang ditampilkan adalah tabel besar yang disebut array/matrix, mislanya ukurannya 100 kolom dan 1000000 baris, 
-Vector adalah satu baris matrix tersebut.  
+Linear regression melibatkan data yang segaris. Nonlinear regression melibatkan data yang tidak segaris (tidak membentuk pola garis lurus), melainkan mengikuti pola kurva atau—untuk dimensi banyak—tidak bisa divisualisasikan.
+
+Untuk variabel dan data yang kompleks, kita membutuhkan metode seperti machine learning. Dengan metode machine learning, data tetap tidak divisualisasikan, tetapi bisa diolah.
+
+Dengan proses machine learning, gambar tetap tidak bisa ditampilkan. Yang ditampilkan adalah tabel besar yang disebut array atau matrix, misalnya berukuran 100 kolom dan 1.000.000 baris. Vector adalah satu baris dari matrix tersebut.
