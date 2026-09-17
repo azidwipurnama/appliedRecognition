@@ -1,0 +1,4 @@
+linier regression melibatkan data yang segaris.
+non linier regression melibatkan data yang tidak segaris (tidak membentuk pola garis lurus), melainkan mengikuti pola kurva atau untuk dimensi banyak tidak bisa divisualisasikan.
+
+ 
