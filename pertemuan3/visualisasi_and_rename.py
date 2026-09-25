@@ -43,6 +43,22 @@ def buat_lingkaran(gambar, py, px, r, warna): #sebagai unsur dasar garis, kurva,
             if (y-py)**2 + (x-px)**2 <= r**2:
                 gambar[y,x] = warna
 
+#Jawaban tambahkan sumbu x dan y
+def buat_garis(gambar, py1, px1, py2, px2, r, warna):
+    py1 = round(py1)
+    px1 = round(px1)
+    py2 = round(py2)
+    px2 = round(px2)
+
+    jumlah_titik = max(abs(py2 - py1), abs(px2 - px1)) + 1
+
+    for t in np.linspace(0, 1, jumlah_titik):
+        py = round(py1 + t * (py2 - py1))
+        px = round(px1 + t * (px2 - px1))
+
+        buat_lingkaran(gambar, py, px, r,    warna
+        )
+#
 def buat_kurva(gambar, m, n, o, warna, lw):
     hw = int(lw/2)
     for x in range(0+hw, kanvas_col_max-hw):          #ensuring no node crashes the canvas' margins
@@ -103,6 +119,17 @@ for i in range(0, Ix):
                                         margin_row, margin_col)
     y_kanvas, x_kanvas = round(koordinat_kanvas[0]), round(koordinat_kanvas[1])
     buat_lingkaran(gambar, y_kanvas, x_kanvas, rl, warna_garis)
+
+# Draw X-Axis and Y-Axis
+# X-AXIS
+# Y = 0
+py_axis_x = konversi_koord_data_ke_koord_kanvas(data_y_min, data_x_min, data_y_min, data_y_max, data_x_min, data_x_max, kanvas_row_min, kanvas_row_max, kanvas_col_min, kanvas_col_max, margin_row, margin_col)[0]
+buat_garis(gambar, py_axis_x, margin_col, py_axis_x, kanvas_col_max - margin_col, rl, warna_axis)
+
+# Y-AXIS
+# X = 0
+px_axis_y = konversi_koord_data_ke_koord_kanvas( data_y_min, data_x_min, data_y_min, data_y_max, data_x_min, data_x_max, kanvas_row_min, kanvas_row_max, kanvas_col_min, kanvas_col_max, margin_row, margin_col)[1]
+buat_garis(gambar, margin_row, px_axis_y, kanvas_row_max - margin_row, px_axis_y, rl, warna_axis)
 
 # Tampilkan hasil di windownya Plt tanpa label apapun.
 plt.figure(facecolor='black')
