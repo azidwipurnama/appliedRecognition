@@ -1,1 +1,26 @@
 ANN is artificial neural network 
+
+researcher modify  the architecture ann 
+
+the synonim of the ann is penceptron and neural network
+
+cnn is the enhance of the ann 
+
+neural networks developed into Artificial Neural Networks (ANNs), followed by the Perceptron, Multi-Layer Perceptron (MLP), and fully connected layers.
+
+Computer vision can also use LSTMs for processing sequential visual data.
+
+After LLMs, models evolved toward agentic AI, where AI systems can use tools, make decisions, and perform tasks autonomously.
+
+Agentic AI can be viewed as an evolution of Generative AI.
+
+LLMs are a type of Generative AI.
+
+AI agent is a character persona serving you.
+
+ai agent and chat ai are the products 
+
+llm is the engine 
+
+deep learning is the part of llm 
+
