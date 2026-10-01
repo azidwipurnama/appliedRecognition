@@ -24,3 +24,14 @@ llm is the engine
 
 deep learning is the part of llm 
 
+Activation function is an important part of a neural network.
+
+activation function is the number normalization within the ann
+
+Normalization means making data consistent.
+
+How to build an LLM: prepare 100 PDFs, convert them into 100 TXT files, read the 100 TXT files, and then create a token table per word.
+
+An opportunity for Indonesians to work in the LLM field is to develop LLMs in Indonesian.
+ 
+
