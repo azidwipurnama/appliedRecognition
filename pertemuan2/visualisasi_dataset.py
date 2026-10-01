@@ -16,8 +16,20 @@ def visualize_data(file_path):
         fig, ax = plt.subplots(figsize=(10, 6), facecolor='black')
         ax.set_facecolor('black')
 
-        # Scatter plot with cyan points, similar to the reference image
-        scatter = ax.scatter(x, y, c='#00FFFF', alpha=0.6, s=30, edgecolors='none', zorder=3)
+        # Compute the linear regression line (line of best fit)
+        slope, intercept = np.polyfit(x, y, 1)
+        y_pred = slope * x + intercept
+
+        # Color points: red if above the regression line, blue if below
+        above = y > y_pred
+        colors = np.where(above, 'red', 'blue')
+        scatter = ax.scatter(x, y, c=colors, alpha=0.6, s=30, edgecolors='none', zorder=3)
+
+        # Plot the regression line
+        x_line = np.linspace(x.min(), x.max(), 100)
+        y_line = slope * x_line + intercept
+        ax.plot(x_line, y_line, color='yellow', linewidth=2, linestyle='-', label=f'Regresi Linier (y = {slope:.2f}x + {intercept:.2f})', zorder=2)
+        ax.legend(loc='upper left', facecolor='black', edgecolor='white', labelcolor='white')
 
         # Axis and grid styling for dark background
         ax.set_title('Dataset Linier', color='white', fontsize=14, fontweight='bold')
