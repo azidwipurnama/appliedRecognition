@@ -34,4 +34,9 @@ How to build an LLM: prepare 100 PDFs, convert them into 100 TXT files, read the
 
 An opportunity for Indonesians to work in the LLM field is to develop LLMs in Indonesian.
  
+Model evaluation is performed immediately after training, without involving application development.
 
+Black-box is a facility for performing functional testing.
+
+Tugas
+Gambar mentah dimasukkan ke folder 1 untuk diproses, hasil dari proses folder 1, kalian masukkan ke folder 2a, hasil proses folder 2a kalian masukkan ke folder 3, hasil proses folder 3, kalian masukkan ke proses folder 4. hore selesai 
