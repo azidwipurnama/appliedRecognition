@@ -10,18 +10,20 @@ File "e (19)_ready" masuk ke dataset baris ke-199.
 """
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 #USER ENTRIES
-file0 = "hor ("
-file1 = "ver ("
-file2 = "diag ("
-file3 = "circle ("
-file4 = "square ("
-file5 = "a ("
-file6 = "b ("
-file7 = "c ("
-file8 = "d ("
-file9 = "e ("
+dir_in = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "01_Preprocessing") + os.sep
+file0 = dir_in + "hor ("
+file1 = dir_in + "ver ("
+file2 = dir_in + "diag ("
+file3 = dir_in + "circle ("
+file4 = dir_in + "square ("
+file5 = dir_in + "a ("
+file6 = dir_in + "b ("
+file7 = dir_in + "c ("
+file8 = dir_in + "d ("
+file9 = dir_in + "e ("
 ext = ")_ready.jpg"
 
 #jumlah huruf = 10
@@ -36,7 +38,8 @@ print("row, col =", row, ",", col, ".")
 juml_kolom = row * col + 1
 
 #MENENTUKAN NAMA FILE OUTPUT
-nama_file_dataset = "02a_inputs_" + str(juml_sampel) + "_" + str(juml_kolom) + ".npy"
+dir_out = os.path.dirname(os.path.abspath(__file__)) + os.sep
+nama_file_dataset = dir_out + "02a_inputs_" + str(juml_sampel) + "_" + str(juml_kolom) + ".npy"
 
 #BUAT TEMPLATE UNTUK DATASET (.npy)
 dataset = np.zeros(shape = (juml_sampel, juml_kolom), dtype=np.uint16)

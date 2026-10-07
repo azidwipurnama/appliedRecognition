@@ -1,6 +1,12 @@
 import numpy as np
-file_input = "02a_inputs_200_401.npy"
-file_label = "02b_labels_200_11.npy"
+import os
+
+dir_02a = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "02a_Create_Dataset") + os.sep
+dir_02b = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "02b_Create_Label") + os.sep
+dir_out = os.path.dirname(os.path.abspath(__file__)) + os.sep
+
+file_input = dir_02a + "02a_inputs_200_401.npy"
+file_label = dir_02b + "02b_labels_200_11.npy"
 
 inputs = np.load(file_input)   #Please type the file name accordingly.
 labels = np.load(file_label)       #Please type the file name accordingly.
@@ -29,5 +35,5 @@ for i in range(0,m):
     inputs_random[i,:] = inputs[a[i],:]            #Realizing the randomization (inputs).
     labels_random[i,:] = labels[a[i],:]            #Realizing the randomization (labels).
 
-np.save("03a_random_" + file_input, inputs_random)
-np.save("03b_random_" + file_label, labels_random)
+np.save(dir_out + "03a_random_" + os.path.basename(file_input), inputs_random)
+np.save(dir_out + "03b_random_" + os.path.basename(file_label), labels_random)

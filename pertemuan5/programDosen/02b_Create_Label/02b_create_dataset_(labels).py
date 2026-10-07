@@ -1,4 +1,5 @@
 import numpy as np
+import os
 """
 CATATAN TENTANG DATASET LABELS YANG DIBANGUN INI
 Kolom ke-0 berisi nomor sampel, 0-199
@@ -7,6 +8,7 @@ Untuk baris ke-0 s.d 19  labelnya (10000 00000)
 Untuk baris ke-20 s.d 39 labelnya (01000 00000)
 dst
 """
+dir_out = os.path.dirname(os.path.abspath(__file__)) + os.sep
 m = 10   #Banyaknya kelas ada 10
 n = 20                                                 #Banyaknya sampel per kelas: 20.
 o = 1            #Banyaknya kolom tambahan, dalam hal ini kolom ke-0 untuk nomor sampel.
@@ -20,7 +22,7 @@ for k in range(0, m*n):
 print(labels)
 print(labels.shape)
 
-np.save("02b_labels_" + str(m*n) + "_" + str(m+o),  labels)
+np.save(dir_out + "02b_labels_" + str(m*n) + "_" + str(m+o) + ".npy",  labels)
 print("Selamat! Dataset labels untuk " + str(m) + " kelas, masing-masing terdiri dari "\
       + str(n) + " sampel berhasil dibuat." )
 print("Kolom ke-0 telah ditambahkan untuk nomor sampel. Ukuran dataset labels menjadi", str(m+o), ",", str(m*n), ".")

@@ -12,10 +12,14 @@ diambilkan dari dataset (insample) ataupun dari luar dataset (outsample)."""
 
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 #USER ENTRIES
-nama_file_latih_input = "pertemuan5/programDosen/04_Training_&_Evaluation_Insample/04a_ready_dataset.npy" #Kolom ke-0 berisi nomor gambar asal, jangan diproses.
-nama_file_latih_label = "pertemuan5/programDosen/04_Training_&_Evaluation_Insample/04b_labels.npy" #Kolom ke-0 berisi nomor gambar asal, jangan diproses.
+dir_this = os.path.dirname(os.path.abspath(__file__)) + os.sep
+dir_03 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "03_Randomize") + os.sep
+
+nama_file_latih_input = dir_03 + "03a_random_02a_inputs_200_401.npy" #Kolom ke-0 berisi nomor gambar asal, jangan diproses.
+nama_file_latih_label = dir_03 + "03b_random_02b_labels_200_11.npy" #Kolom ke-0 berisi nomor gambar asal, jangan diproses.
 inp_row, inp_col = 20, 20                             #Ukuran asli data input di dataset tanpa kolom ke-0.
 number_of_hidden_neurons = 200
 epochs = 10
@@ -88,10 +92,10 @@ for epoch in range(1, epochs+1):
     nr_correct = 0
 
 #SAVING THE TRAINING RESULTS INTO THE HDD
-np.save("a3_b_i_h.npy", b_i_h)
-np.save("a3_w_i_h.npy", w_i_h)
-np.save("a3_b_h_o.npy", b_h_o)
-np.save("a3_w_h_o.npy", w_h_o)
+np.save(dir_this + "a3_b_i_h.npy", b_i_h)
+np.save(dir_this + "a3_w_i_h.npy", w_i_h)
+np.save(dir_this + "a3_b_h_o.npy", b_h_o)
+np.save(dir_this + "a3_w_h_o.npy", w_h_o)
 
 #ANN TESTING
 def konversi(array):
@@ -109,10 +113,10 @@ def konversi(array):
     return label_hasil
 
 #READING THE TRAINING RESULTS FROM THE HDD
-b_i_h = np.load("a3_b_i_h.npy")
-w_i_h = np.load("a3_w_i_h.npy")
-b_h_o = np.load("a3_b_h_o.npy")
-w_h_o = np.load("a3_w_h_o.npy")
+b_i_h = np.load(dir_this + "a3_b_i_h.npy")
+w_i_h = np.load(dir_this + "a3_w_i_h.npy")
+b_h_o = np.load(dir_this + "a3_b_h_o.npy")
+w_h_o = np.load(dir_this + "a3_w_h_o.npy")
 
 while True:
     print("")

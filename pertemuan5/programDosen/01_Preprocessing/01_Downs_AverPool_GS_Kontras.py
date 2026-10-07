@@ -1,8 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 #USER ENTRY
-dir = ""
+dir_in = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "00_Dataset_Mentah") + os.sep
+dir_out = os.path.dirname(os.path.abspath(__file__)) + os.sep
 file_input = []
 file_input.append ("hor")
 file_input.append ("ver")
@@ -105,9 +107,9 @@ while file_input[i] != "nul":                                             #Jika 
     for k in range(0, j):
         file_gambar = file_input[i] + " (" + str(k) + ")"
         print(file_gambar)
-        pic_ori, pic_crop, pic_res, pic_gs, pic_gs_hitam, pic_gs_hitam_kontras = preprocessing(dir, file_gambar, ext, th)
+        pic_ori, pic_crop, pic_res, pic_gs, pic_gs_hitam, pic_gs_hitam_kontras = preprocessing(dir_in, file_gambar, ext, th)
         pic_gs_hitam_kontras = pic_gs_hitam_kontras.astype(np.uint8)
-        plt.imsave(file_gambar + "_ready" + ext, pic_gs_hitam_kontras)
+        plt.imsave(dir_out + file_gambar + "_ready" + ext, pic_gs_hitam_kontras)  # Output ke folder ini sendiri (01_Preprocessing)
     i += 1
 
 plt.figure("pic_ori")
