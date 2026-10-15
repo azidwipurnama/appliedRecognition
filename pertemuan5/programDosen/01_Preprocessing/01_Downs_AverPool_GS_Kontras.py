@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 #USER ENTRY
-dir_in = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "00_Dataset_Mentah") + os.sep
+dir_in = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "00_Gambar_Mentah") + os.sep
 dir_out = os.path.dirname(os.path.abspath(__file__)) + os.sep
 file_input = []
 file_input.append ("hor")
